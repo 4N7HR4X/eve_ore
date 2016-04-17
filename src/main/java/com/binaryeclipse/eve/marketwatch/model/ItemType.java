@@ -1,0 +1,110 @@
+package com.binaryeclipse.eve.marketwatch.model;
+
+import java.math.BigDecimal;
+
+public class ItemType extends CrestObject {
+    public BigDecimal capacity;
+    public String description;
+    public String portionSize_str;
+    public Integer iconID;
+    public Integer portionSize;
+    public String iconID_str;
+    public BigDecimal volume;
+    public Dogma dogma;
+    public BigDecimal radius;
+    public Boolean published;
+    public BigDecimal mass;
+    public String name;
+
+}
+//{
+//  "capacity": 0.0,
+//  "description": "Plagioclase is not amongst the most valuable ore types around, but it contains a large amount of pyerite and is thus always in constant demand. It also yields some tritanium and mexallon.\r\n\r\nAvailable in <color='0xFF4DFFCC'>0.9</color> security status solar systems or lower.",
+//  "portionSize_str": "100",
+//  "iconID": 230,
+//  "portionSize": 100,
+//  "iconID_str": "230",
+//  "volume": 0.35,
+//  "dogma": {
+//    "attributes": [
+//      {
+//        "attribute": {
+//          "id_str": "4",
+//          "href": "https://public-crest.eveonline.com/dogma/attributes/4/",
+//          "id": 4,
+//          "name": "mass"
+//        },
+//        "value": 1e+35
+//      },
+//      {
+//        "attribute": {
+//          "id_str": "38",
+//          "href": "https://public-crest.eveonline.com/dogma/attributes/38/",
+//          "id": 38,
+//          "name": "capacity"
+//        },
+//        "value": 0.0
+//      },
+//      {
+//        "attribute": {
+//          "id_str": "161",
+//          "href": "https://public-crest.eveonline.com/dogma/attributes/161/",
+//          "id": 161,
+//          "name": "volume"
+//        },
+//        "value": 0.35
+//      },
+//      {
+//        "attribute": {
+//          "id_str": "162",
+//          "href": "https://public-crest.eveonline.com/dogma/attributes/162/",
+//          "id": 162,
+//          "name": "radius"
+//        },
+//        "value": 0.0
+//      },
+//      {
+//        "attribute": {
+//          "id_str": "182",
+//          "href": "https://public-crest.eveonline.com/dogma/attributes/182/",
+//          "id": 182,
+//          "name": "requiredSkill1"
+//        },
+//        "value": 3386.0
+//      },
+//      {
+//        "attribute": {
+//          "id_str": "790",
+//          "href": "https://public-crest.eveonline.com/dogma/attributes/790/",
+//          "id": 790,
+//          "name": "reprocessingSkillType"
+//        },
+//        "value": 12191.0
+//      },
+//      {
+//        "attribute": {
+//          "id_str": "1940",
+//          "href": "https://public-crest.eveonline.com/dogma/attributes/1940/",
+//          "id": 1940,
+//          "name": "compressionTypeID"
+//        },
+//        "value": 28422.0
+//      },
+//      {
+//        "attribute": {
+//          "id_str": "1941",
+//          "href": "https://public-crest.eveonline.com/dogma/attributes/1941/",
+//          "id": 1941,
+//          "name": "compressionQuantityNeeded"
+//        },
+//        "value": 100.0
+//      }
+//    ]
+//  },
+//  "radius": 1.0,
+//  "id_str": "18",
+//  "published": true,
+//  "mass": 1e+35,
+//  "id": 18,
+//  "name": "Plagioclase"
+//}
